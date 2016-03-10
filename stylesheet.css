@@ -1,0 +1,85 @@
+/*IDS*/
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+/*CLASSES*/
+
+a:active {
+    color: #1810de;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #de1010;
+}
+
+a:link {
+    color: #0e20a7;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #923c9d;
+    text-decoration: none;
+}
+
+a[href^="http"] {
+    background-image: url(img/globo.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    padding: 25px;
+}
+
+p > em {
+    color: #a70e14;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #a70e14;
+    margin-bottom: -10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+ol, ul {
+    font-style: italic;
+}
+
+/*CUSTOM CLASSES*/
+
+
+.external-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.note {
+    color: dimgrey;
+    font-size: small;
+}
+
+.step-number {
+    color: #a70e14;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
